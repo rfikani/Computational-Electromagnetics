@@ -9,8 +9,8 @@
 - `waveguide_fem/solver.py` — TE/TM generalized eigenvalue solves
 - `waveguide_fem/references.py` — analytical references and target mode shapes
 - `waveguide_fem/utils.py` — eigenspace grouping, projection, dispersion helper
-- `waveguide_fem/matching.py` — mode matching / extraction
-- `waveguide_fem/pipeline.py` — full solve for one mesh
+- `waveguide_fem/matching.py` —mode matching / extraction
+- `waveguide_fem/pipeline.py` —full solve for one mesh
 - `waveguide_fem/plotting.py` — mode and dispersion plotting
 - `run_all.py` —  runs everything
 
@@ -28,18 +28,18 @@ source .venv/bin/activate
 On Windows PowerShell:
 
 ```powershell
-python -m venv .venv
+python3 -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 ### 2. Install dependencies
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 ### 3. Run the project
 
 ```bash
-python run_all.py
+python3 run_all.py
 ```
 ## Output files
 
