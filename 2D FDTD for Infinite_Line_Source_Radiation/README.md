@@ -20,12 +20,12 @@
 2. Install the needed packages:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 3. Run the code:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
